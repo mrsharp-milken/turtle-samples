@@ -1,0 +1,20 @@
+import turtle
+
+screen = turtle.Screen()
+tina = turtle.Turtle()
+tina.shape('turtle')
+
+tina.forward(100)
+tina.left(45)
+tina.color("blue")
+tina.forward(100)
+tina.circle(50)
+
+tina.penup()
+tina.forward(100)
+tina.pendown()
+
+tina.forward(100)
+tina.circle(50, 180)
+
+turtle.done()
